@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\C#\\Fájlkezelő feladatok\\titanic\\titanic\\titanic.csproj": {}
+    "Z:\\Suli\\C#\\fájlkezeléses feladatok\\titanic\\titanic\\titanic.csproj": {}
   },
   "projects": {
-    "Z:\\C#\\Fájlkezelő feladatok\\titanic\\titanic\\titanic.csproj": {
+    "Z:\\Suli\\C#\\fájlkezeléses feladatok\\titanic\\titanic\\titanic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\C#\\Fájlkezelő feladatok\\titanic\\titanic\\titanic.csproj",
+        "projectUniqueName": "Z:\\Suli\\C#\\fájlkezeléses feladatok\\titanic\\titanic\\titanic.csproj",
         "projectName": "titanic",
-        "projectPath": "Z:\\C#\\Fájlkezelő feladatok\\titanic\\titanic\\titanic.csproj",
+        "projectPath": "Z:\\Suli\\C#\\fájlkezeléses feladatok\\titanic\\titanic\\titanic.csproj",
         "packagesPath": "C:\\Users\\gluck.adrian\\.nuget\\packages\\",
-        "outputPath": "Z:\\C#\\Fájlkezelő feladatok\\titanic\\titanic\\obj\\",
+        "outputPath": "Z:\\Suli\\C#\\fájlkezeléses feladatok\\titanic\\titanic\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

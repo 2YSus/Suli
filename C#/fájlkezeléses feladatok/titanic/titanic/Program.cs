@@ -20,6 +20,7 @@ namespace titanic
                     string kategoria = elemek[0].Trim();
                     if (elemek.Length == 3)
                     {
+
                         if (int.TryParse(elemek[1].Trim(), out int szam1) && int.TryParse(elemek[2].Trim(), out int szam2))
                         {
                             beolvasottAdatok.Add(new AdatSzerkezet
