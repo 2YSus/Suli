@@ -1,0 +1,52 @@
+.tablazat
+{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #9b9bd4;
+    border-radius: 4px;
+}
+.th
+{
+    border-style: outset;
+    border-color: #d6d6fe;
+    border-radius: 3px;
+    background-color:  #d6d6fe;
+    padding: 4px;
+    font-weight: 100;
+}
+.oszlop1
+{
+    border-style: outset;
+    border-color: #b9bafd;
+    border-radius: 3px;
+    background-color:  #b9bafd;
+    padding: 20px;
+    font-weight: 100;
+}
+.oszlopL
+{
+    border-style: outset;
+    border-color: #d6d6d6;
+    border-radius: 3px;
+    background-color:  #d6d6d6;
+    padding: 20px;
+    font-weight: 100;
+}
+.velenceito
+{
+    border-style: outset;
+    border-color: #b8b8b8;
+    border-radius: 3px;
+    background-color:  #b8b8b8;
+    padding: 20px;
+    font-weight: 100;
+}
+.sor1
+{
+    border-style: outset;
+    border-color: #9b9cfd;
+    border-radius: 3px;
+    background-color:  #9b9cfd;
+    padding: 20px;
+    font-weight: 100;
+}

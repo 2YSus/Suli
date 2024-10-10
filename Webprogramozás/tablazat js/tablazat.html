@@ -1,0 +1,41 @@
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        td
+        {
+            text-align: right;
+            background-color: #CCC;
+            padding : 4px;
+            border-radius: 2px;
+        }
+    </style>
+</head>
+<body>
+    
+    <script>
+
+        kg = 80
+        cm = 1.76
+        BMI = kg/cm**2
+        document.write('A testtömeg indexe:',BMI)
+
+        document.write('<br>')
+
+        for(i=1; i<=25; i++)
+        document.write(i, ' ')
+
+        
+        document.write('<table><tr>')
+            for(i=1; i<=100; i++) 
+            {
+                document.write('<td>', i , '</td>')
+                if(i%10==0) document.write('</tr><tr>')
+            }
+        document.write('</tr></table>')
+    </script>
+
+</body>
+</html>

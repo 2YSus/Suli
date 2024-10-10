@@ -1,0 +1,10 @@
+Z:\C#\feladat 1-10\6\6\bin\Debug\netcoreapp3.1\6.exe
+Z:\C#\feladat 1-10\6\6\bin\Debug\netcoreapp3.1\6.deps.json
+Z:\C#\feladat 1-10\6\6\bin\Debug\netcoreapp3.1\6.runtimeconfig.json
+Z:\C#\feladat 1-10\6\6\bin\Debug\netcoreapp3.1\6.runtimeconfig.dev.json
+Z:\C#\feladat 1-10\6\6\bin\Debug\netcoreapp3.1\6.dll
+Z:\C#\feladat 1-10\6\6\bin\Debug\netcoreapp3.1\6.pdb
+Z:\C#\feladat 1-10\6\6\obj\Debug\netcoreapp3.1\6.AssemblyInfoInputs.cache
+Z:\C#\feladat 1-10\6\6\obj\Debug\netcoreapp3.1\6.AssemblyInfo.cs
+Z:\C#\feladat 1-10\6\6\obj\Debug\netcoreapp3.1\6.dll
+Z:\C#\feladat 1-10\6\6\obj\Debug\netcoreapp3.1\6.pdb
