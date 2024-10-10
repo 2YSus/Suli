@@ -1,40 +1,60 @@
 ﻿using System;
 using System.IO;
+using System.Collections.Generic;
 
-class Program
+namespace titanic
 {
-    static void Main()
+    class Program
     {
-        string fileName = "titanic.txt";
-
-        using (StreamWriter writer = new StreamWriter(fileName))
+        static void Main(string[] args)
         {
-            for (int i = 1; i <= 5; i++)
-            {
-                Console.Write($"Add meg a(z) {i}. diák nevét: ");
-                string nev = Console.ReadLine();
+            string fileNev = @"Z:\Suli\C#\Adrian\titanic.txt";
+            List<AdatSzerkezet> beolvasottAdatok = new List<AdatSzerkezet>();
 
-                Console.Write($"Add meg a(z) {i}. diák jegyét: ");
-                int jegy;
-                while (!int.TryParse(Console.ReadLine(), out jegy) || jegy < 1 || jegy > 5)
+            using (StreamReader olvaso = File.OpenText(fileNev))
+            {
+                string sor;
+                while ((sor = olvaso.ReadLine()) != null)
                 {
-                    Console.WriteLine("Hibás bemenet! A jegy 1 és 5 közötti szám legyen.");
-                    Console.Write("Add meg újra a jegyet: ");
+                    var elemek = sor.Split(";");
+                    string kategoria = elemek[0].Trim();
+                    if (elemek.Length == 3)
+                    {
+                        if (int.TryParse(elemek[1].Trim(), out int szam1) && int.TryParse(elemek[2].Trim(), out int szam2))
+                        {
+                            beolvasottAdatok.Add(new AdatSzerkezet
+                            {
+                                Kategoria = kategoria,
+                                Szam1 = szam1,
+                                Szam2 = szam2
+                            });
+                        }
+                        else
+                        {
+                            Console.WriteLine($"Hiba a sorban: {sor}. Ellenőrizd hibákért.");
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine($"Hiba a sor formátumában: {sor}");
+                    }
                 }
-
-                // Írás a fájlba
-                writer.WriteLine($"Diák neve: {nev}, Jegye: {jegy}");
             }
-        }
 
-        Console.WriteLine("\nA fájl tartalma:");
-        using (StreamReader reader = new StreamReader(fileName))
-        {
-            string line;
-            while ((line = reader.ReadLine()) != null)
+            Console.WriteLine("A beolvasott adatok:");
+            foreach (var adat in beolvasottAdatok)
             {
-                Console.WriteLine(line);
+                Console.WriteLine($"Kategória: {adat.Kategoria}, Szám1: {adat.Szam1}, Szám2: {adat.Szam2}");
             }
+
+            Console.ReadKey();
         }
+    }
+
+    public class AdatSzerkezet
+    {
+        public string Kategoria { get; set; }
+        public int Szam1 { get; set; }
+        public int Szam2 { get; set; }
     }
 }
