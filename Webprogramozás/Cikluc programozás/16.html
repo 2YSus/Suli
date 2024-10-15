@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        
+        p=0
+        j=0
+        for (o=8; o<12;)
+        {
+            p += 2
+            if(p>4)
+            {
+                p=0
+                o++
+                if(o<10)
+                {
+                    o = j+o
+                }
+            }
+
+            document.write(o, ':', p, '0', ', ')
+        }
+    </script>
+
+</body>
+</html>

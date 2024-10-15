@@ -8,15 +8,19 @@
 <body>
     
     <script>
+        k=0
+        j=0
+        e=1
 
-        k = 1
-
-        for(i=0; i<=24; i++)
+        for(i=1; i<25; i++)
         {
-            k += i
+            j = e
+            e = k
+            k = j+e
+
             document.write(k, ', ')
-            
         }
+
     </script>
 
 </body>
