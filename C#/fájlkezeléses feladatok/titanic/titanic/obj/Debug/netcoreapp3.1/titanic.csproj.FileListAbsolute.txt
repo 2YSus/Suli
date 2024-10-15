@@ -1,0 +1,11 @@
+Z:\Suli\C#\fájlkezeléses feladatok\titanic\titanic\bin\Debug\netcoreapp3.1\titanic.exe
+Z:\Suli\C#\fájlkezeléses feladatok\titanic\titanic\bin\Debug\netcoreapp3.1\titanic.deps.json
+Z:\Suli\C#\fájlkezeléses feladatok\titanic\titanic\bin\Debug\netcoreapp3.1\titanic.runtimeconfig.json
+Z:\Suli\C#\fájlkezeléses feladatok\titanic\titanic\bin\Debug\netcoreapp3.1\titanic.runtimeconfig.dev.json
+Z:\Suli\C#\fájlkezeléses feladatok\titanic\titanic\bin\Debug\netcoreapp3.1\titanic.dll
+Z:\Suli\C#\fájlkezeléses feladatok\titanic\titanic\bin\Debug\netcoreapp3.1\titanic.pdb
+Z:\Suli\C#\fájlkezeléses feladatok\titanic\titanic\obj\Debug\netcoreapp3.1\titanic.csprojAssemblyReference.cache
+Z:\Suli\C#\fájlkezeléses feladatok\titanic\titanic\obj\Debug\netcoreapp3.1\titanic.AssemblyInfoInputs.cache
+Z:\Suli\C#\fájlkezeléses feladatok\titanic\titanic\obj\Debug\netcoreapp3.1\titanic.AssemblyInfo.cs
+Z:\Suli\C#\fájlkezeléses feladatok\titanic\titanic\obj\Debug\netcoreapp3.1\titanic.dll
+Z:\Suli\C#\fájlkezeléses feladatok\titanic\titanic\obj\Debug\netcoreapp3.1\titanic.pdb
