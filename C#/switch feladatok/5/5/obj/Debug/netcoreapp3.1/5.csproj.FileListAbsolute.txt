@@ -1,0 +1,10 @@
+Z:\Suli\C#\switch feladatok\5\5\bin\Debug\netcoreapp3.1\5.exe
+Z:\Suli\C#\switch feladatok\5\5\bin\Debug\netcoreapp3.1\5.deps.json
+Z:\Suli\C#\switch feladatok\5\5\bin\Debug\netcoreapp3.1\5.runtimeconfig.json
+Z:\Suli\C#\switch feladatok\5\5\bin\Debug\netcoreapp3.1\5.runtimeconfig.dev.json
+Z:\Suli\C#\switch feladatok\5\5\bin\Debug\netcoreapp3.1\5.dll
+Z:\Suli\C#\switch feladatok\5\5\bin\Debug\netcoreapp3.1\5.pdb
+Z:\Suli\C#\switch feladatok\5\5\obj\Debug\netcoreapp3.1\5.AssemblyInfoInputs.cache
+Z:\Suli\C#\switch feladatok\5\5\obj\Debug\netcoreapp3.1\5.AssemblyInfo.cs
+Z:\Suli\C#\switch feladatok\5\5\obj\Debug\netcoreapp3.1\5.dll
+Z:\Suli\C#\switch feladatok\5\5\obj\Debug\netcoreapp3.1\5.pdb

@@ -11,35 +11,42 @@ namespace titanic
             string fileNev = @"Z:\Suli\C#\Adrian\titanic.txt";
             List<AdatSzerkezet> beolvasottAdatok = new List<AdatSzerkezet>();
 
-            using (StreamReader olvaso = File.OpenText(fileNev))
+            try
             {
-                string sor;
-                while ((sor = olvaso.ReadLine()) != null)
+                using (StreamReader olvaso = File.OpenText(fileNev))
                 {
-                    var elemek = sor.Split(";");
-                    string kategoria = elemek[0].Trim();
-                    if (elemek.Length == 3)
+                    string sor;
+                    while ((sor = olvaso.ReadLine()) != null)
                     {
-
-                        if (int.TryParse(elemek[1].Trim(), out int szam1) && int.TryParse(elemek[2].Trim(), out int szam2))
+                        var elemek = sor.Split(";");
+                        string kategoria = elemek[0].Trim();
+                        if (elemek.Length == 3)
                         {
-                            beolvasottAdatok.Add(new AdatSzerkezet
+
+                            if (int.TryParse(elemek[1].Trim(), out int szam1) && int.TryParse(elemek[2].Trim(), out int szam2))
                             {
-                                Kategoria = kategoria,
-                                Szam1 = szam1,
-                                Szam2 = szam2
-                            });
+                                beolvasottAdatok.Add(new AdatSzerkezet
+                                {
+                                    Kategoria = kategoria,
+                                    Szam1 = szam1,
+                                    Szam2 = szam2
+                                });
+                            }
+                            else
+                            {
+                                Console.WriteLine($"Hiba a sorban: {sor}. Ellenőrizd hibákért.");
+                            }
                         }
                         else
                         {
-                            Console.WriteLine($"Hiba a sorban: {sor}. Ellenőrizd hibákért.");
+                            Console.WriteLine($"Hiba a sor formátumában: {sor}");
                         }
                     }
-                    else
-                    {
-                        Console.WriteLine($"Hiba a sor formátumában: {sor}");
-                    }
                 }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Hiba történt a fájl beolvasása közben {ex.Message}");
             }
 
             Console.WriteLine("A beolvasott adatok:");
