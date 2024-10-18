@@ -1,0 +1,11 @@
+Z:\Suli\C#\fájlkezeléses feladatok\szamsorozat\szamsorozat\szamsorozat\obj\Debug\netcoreapp3.1\szamsorozat.csprojAssemblyReference.cache
+Z:\Suli\C#\fájlkezeléses feladatok\szamsorozat\szamsorozat\szamsorozat\obj\Debug\netcoreapp3.1\szamsorozat.AssemblyInfoInputs.cache
+Z:\Suli\C#\fájlkezeléses feladatok\szamsorozat\szamsorozat\szamsorozat\obj\Debug\netcoreapp3.1\szamsorozat.AssemblyInfo.cs
+Z:\Suli\C#\fájlkezeléses feladatok\szamsorozat\szamsorozat\szamsorozat\bin\Debug\netcoreapp3.1\szamsorozat.exe
+Z:\Suli\C#\fájlkezeléses feladatok\szamsorozat\szamsorozat\szamsorozat\bin\Debug\netcoreapp3.1\szamsorozat.deps.json
+Z:\Suli\C#\fájlkezeléses feladatok\szamsorozat\szamsorozat\szamsorozat\bin\Debug\netcoreapp3.1\szamsorozat.runtimeconfig.json
+Z:\Suli\C#\fájlkezeléses feladatok\szamsorozat\szamsorozat\szamsorozat\bin\Debug\netcoreapp3.1\szamsorozat.runtimeconfig.dev.json
+Z:\Suli\C#\fájlkezeléses feladatok\szamsorozat\szamsorozat\szamsorozat\bin\Debug\netcoreapp3.1\szamsorozat.dll
+Z:\Suli\C#\fájlkezeléses feladatok\szamsorozat\szamsorozat\szamsorozat\bin\Debug\netcoreapp3.1\szamsorozat.pdb
+Z:\Suli\C#\fájlkezeléses feladatok\szamsorozat\szamsorozat\szamsorozat\obj\Debug\netcoreapp3.1\szamsorozat.dll
+Z:\Suli\C#\fájlkezeléses feladatok\szamsorozat\szamsorozat\szamsorozat\obj\Debug\netcoreapp3.1\szamsorozat.pdb
