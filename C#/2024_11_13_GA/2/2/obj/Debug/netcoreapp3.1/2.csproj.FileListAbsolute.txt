@@ -1,0 +1,10 @@
+Z:\Suli\C#\2024_11_13_GA\2\2\bin\Debug\netcoreapp3.1\2.exe
+Z:\Suli\C#\2024_11_13_GA\2\2\bin\Debug\netcoreapp3.1\2.deps.json
+Z:\Suli\C#\2024_11_13_GA\2\2\bin\Debug\netcoreapp3.1\2.runtimeconfig.json
+Z:\Suli\C#\2024_11_13_GA\2\2\bin\Debug\netcoreapp3.1\2.runtimeconfig.dev.json
+Z:\Suli\C#\2024_11_13_GA\2\2\bin\Debug\netcoreapp3.1\2.dll
+Z:\Suli\C#\2024_11_13_GA\2\2\bin\Debug\netcoreapp3.1\2.pdb
+Z:\Suli\C#\2024_11_13_GA\2\2\obj\Debug\netcoreapp3.1\2.AssemblyInfoInputs.cache
+Z:\Suli\C#\2024_11_13_GA\2\2\obj\Debug\netcoreapp3.1\2.AssemblyInfo.cs
+Z:\Suli\C#\2024_11_13_GA\2\2\obj\Debug\netcoreapp3.1\2.dll
+Z:\Suli\C#\2024_11_13_GA\2\2\obj\Debug\netcoreapp3.1\2.pdb
