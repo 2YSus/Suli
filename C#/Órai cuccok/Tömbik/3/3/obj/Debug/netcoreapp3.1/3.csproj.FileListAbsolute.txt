@@ -1,0 +1,11 @@
+Z:\Suli\C#\Órai cuccok\Tömbik\3\3\bin\Debug\netcoreapp3.1\3.exe
+Z:\Suli\C#\Órai cuccok\Tömbik\3\3\bin\Debug\netcoreapp3.1\3.deps.json
+Z:\Suli\C#\Órai cuccok\Tömbik\3\3\bin\Debug\netcoreapp3.1\3.runtimeconfig.json
+Z:\Suli\C#\Órai cuccok\Tömbik\3\3\bin\Debug\netcoreapp3.1\3.runtimeconfig.dev.json
+Z:\Suli\C#\Órai cuccok\Tömbik\3\3\bin\Debug\netcoreapp3.1\3.dll
+Z:\Suli\C#\Órai cuccok\Tömbik\3\3\bin\Debug\netcoreapp3.1\3.pdb
+Z:\Suli\C#\Órai cuccok\Tömbik\3\3\obj\Debug\netcoreapp3.1\3.csprojAssemblyReference.cache
+Z:\Suli\C#\Órai cuccok\Tömbik\3\3\obj\Debug\netcoreapp3.1\3.AssemblyInfoInputs.cache
+Z:\Suli\C#\Órai cuccok\Tömbik\3\3\obj\Debug\netcoreapp3.1\3.AssemblyInfo.cs
+Z:\Suli\C#\Órai cuccok\Tömbik\3\3\obj\Debug\netcoreapp3.1\3.dll
+Z:\Suli\C#\Órai cuccok\Tömbik\3\3\obj\Debug\netcoreapp3.1\3.pdb

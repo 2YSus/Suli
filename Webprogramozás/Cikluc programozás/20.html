@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        td{
+            border-radius: 10px;
+        }
+        table{
+            font-size: 50px;
+            text-align: center;
+        }
+        .empty {
+            background-color: white !important;
+        }
+        td:nth-child(-n + 5){
+            background-color: rgb(0, 0, 170);
+            color: white;
+        }
+        td:nth-child(6){
+            background-color: rgb(0, 170, 0);
+            color: white;
+        }
+        td:nth-child(7){
+            background-color: rgb(170, 0, 0);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        document.write('<table><tr>')
+            for(i = -3; i<=31; i++)
+            {
+                if(i>0 && i<31)document.write('<td>', i, ' </td>')
+                else document.write('<td class="empty">', ' ', ' </td>')
+                    if(i%7==3)document.write('</tr><tr>')
+            }
+        document.write('</tr></table>')
+    </script>
+</body>
+</html>
